@@ -13,5 +13,5 @@ group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 end
 
-gem "bugsify", path: "../../libraries/bugsify-ruby"
+gem "bugsify"
 
