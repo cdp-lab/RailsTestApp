@@ -1,6 +1,6 @@
 require 'debug'
 
-module Ex
+module Mozgovo
   module Config
     def self.included(host_class)
       host_class.extend ClassMethods
@@ -24,12 +24,16 @@ module Ex
   end
 end
 
-module Ex
-  include Ex::Config
+module Mozgovo
+  include Mozgovo::Config
 
   class << self
-    def pera
-      "pera"
+    def pera_kamenik
+      "Pera Kamenik"
+    end
+
+    def danilo_popovic
+      "Danilo Popovic"
     end
   end
 end
