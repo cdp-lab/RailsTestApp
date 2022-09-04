@@ -3,7 +3,7 @@ class ProjectsController < ApplicationController
 
   # GET /projects
   def index
-    @projects = Popac.all
+    @projects = PeraKamenik.all
 
     render json: @projects
   end

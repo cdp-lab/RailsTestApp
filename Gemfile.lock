@@ -1,3 +1,8 @@
+PATH
+  remote: bugsify-ruby
+  specs:
+    bugsify (0.2.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -68,7 +73,6 @@ GEM
       tzinfo (~> 2.0)
     bootsnap (1.11.1)
       msgpack (~> 1.2)
-    bugsify (0.1.7)
     builder (3.2.4)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
@@ -164,7 +168,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
-  bugsify
+  bugsify!
   debug
   puma (~> 5.0)
   rails (~> 7.0.3)
