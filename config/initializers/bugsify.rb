@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 Bugsify.configure do |config|
-  config.application_uid = ""
-  config.application_secret = ""
-  config.application_env = "development"
+  config.api_key = ENV['API_KEY']
+  config.api_secret = ENV['API_SECRET']
 end

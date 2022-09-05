@@ -2,7 +2,7 @@ class ProjectsController < ApplicationController
   before_action :set_project, only: %i[ show update destroy ]
 
   # GET /projects
-  def index
+  def index-
     @projects = Popac.all
 
     render json: @projects
