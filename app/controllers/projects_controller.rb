@@ -2,8 +2,8 @@ class ProjectsController < ApplicationController
   before_action :set_project, only: %i[ show update destroy ]
 
   # GET /projects
-  def index-
-    @projects = Popac.all
+  def index
+    @projects = PeraKamenik.all
 
     render json: @projects
   end
