@@ -68,8 +68,8 @@ GEM
       tzinfo (~> 2.0)
     bootsnap (1.13.0)
       msgpack (~> 1.2)
-    bugsify (0.2.5)
     builder (3.2.4)
+    codepop (0.2.7)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
     debug (1.6.2)
@@ -168,7 +168,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
-  bugsify
+  codepop
   debug
   dotenv-rails
   puma (~> 5.0)

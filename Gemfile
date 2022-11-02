@@ -14,5 +14,5 @@ group :development, :test do
   gem "dotenv-rails"
 end
 
-gem "bugsify"
+gem "codepop"
 

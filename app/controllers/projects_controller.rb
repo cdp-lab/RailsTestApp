@@ -3,7 +3,7 @@ class ProjectsController < ApplicationController
 
   # GET /projects
   def index
-    @projects = SavoSaranovicGreska2.all
+    @projects = ERR.all
 
     render json: @projects
   end
